@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Print 'best shcoll' 10 times
+# Print 'best school' until i less than 10
 
 i=0
 
-while [ $i -lt 10 ]
+until [ $i -eq 10 ]
 do
     echo "Best School"
     ((i++))
